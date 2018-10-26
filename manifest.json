@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Fill me up",
+  "version": "1.0",
+
+  "description": "Makes a selected element fill the entire window.",
+
+  "icons": {
+    "48": "icons/fill-48.png"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/fill-48.png",
+    "default_title": "Make an element fill the window.",
+    "default_popup": "popup.html"
+  }
+}
