@@ -35,9 +35,12 @@ window.onclick = function(e) {
     resetHover();
 
     clicked = e.target;
+
+    hideOthers(clicked, document.body);
+    
     clicked.style.margin = 0;
     clicked.style.height = "100%";
     clicked.style.width = "100%";
-
-    hideOthers(clicked, document.body);
+    
+    document.body.appendChild(clicked);
 }
